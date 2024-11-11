@@ -3,6 +3,7 @@ vim.g.mapleader = " "
 
 vim.opt.showmode = true     -- Shows -- INSERT --, -- NORMAL -- etc.
 vim.opt.laststatus = 2      -- Always show statusline
+vim.opt.clipboard = "unnamedplus" -- clipboard support
 
 -- bootstrap lazy and all plugins
 local lazypath = vim.fn.stdpath "data" .. "/lazy/lazy.nvim"
