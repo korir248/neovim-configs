@@ -11,5 +11,6 @@ map("n", "<leader>hi", function ()
   local is_enabled = vim.lsp.inlay_hint.is_enabled()
   vim.lsp.inlay_hint.enable(not is_enabled)
 end)
+-- map("n", "z", "<S-k>", {desc = "Show definitions"})
 
 -- map({ "n", "i", "v" }, "<C-s>", "<cmd> w <cr>")
